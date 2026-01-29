@@ -1,4 +1,5 @@
 *.lck
 *.swp
+*.bak
 \#auto_saved_files#
 pcb/pcb-backups/
