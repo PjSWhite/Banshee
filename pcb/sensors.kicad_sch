@@ -197,7 +197,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Banshee:SGP40"
+		(symbol "Banshee:SGP41"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -209,7 +209,7 @@
 					)
 				)
 			)
-			(property "Value" "SGP40"
+			(property "Value" "SGP41"
 				(at 4.572 7.874 0)
 				(effects
 					(font
@@ -244,7 +244,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SGP40_1_1"
+			(symbol "SGP41_1_1"
 				(rectangle
 					(start -5.08 6.35)
 					(end 5.08 -5.08)
@@ -1856,7 +1856,7 @@
 		)
 		(uuid "8a81c39d-0fe8-48a5-91f5-d4262ac8ba36")
 	)
-	(text "SGP40: VOC Sensor"
+	(text "SGP41: VOC Sensor"
 		(exclude_from_sim no)
 		(at 21.59 88.9 0)
 		(effects
@@ -3608,7 +3608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Banshee:SGP40")
+		(lib_id "Banshee:SGP41")
 		(at 44.45 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3616,7 +3616,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15907359-6530-4fdc-9ca7-2a61e820c1bf")
+		(uuid "0a7f5a81-b47c-4fe6-be37-f502acb5691f")
 		(property "Reference" "U4"
 			(at 38.1 117.4749 0)
 			(effects
@@ -3626,7 +3626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SGP40"
+		(property "Value" "SGP41"
 			(at 38.1 120.0149 0)
 			(effects
 				(font
@@ -3662,26 +3662,26 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "14d073a1-872d-433c-897e-a8b087a45fe0")
+		(pin "2"
+			(uuid "bfb4a3a5-33f3-48d5-9f22-d753dc2adc54")
 		)
-		(pin "6"
-			(uuid "f121df1e-cd0f-48cd-88c7-6159bdc7d023")
+		(pin "3"
+			(uuid "65314df2-53e7-492b-941b-91c5c3dd0f68")
 		)
 		(pin "1"
-			(uuid "6fa70401-e8ea-43c7-82b0-53f32c8961bb")
-		)
-		(pin "4"
-			(uuid "f06d012b-f688-4e20-a0ee-b52315851287")
-		)
-		(pin "2"
-			(uuid "e5d6e207-71a6-4dd0-9036-eb0bafa97727")
+			(uuid "ff982b53-6df4-4427-96eb-97b609f6855e")
 		)
 		(pin "7"
-			(uuid "8e28491f-9e35-4d63-9e17-df7f9f4ec001")
+			(uuid "60be9647-bf11-4fb6-8b76-df7cb2e8fa15")
 		)
 		(pin "5"
-			(uuid "8dd3ab4b-a324-4b31-8438-36c31cd403e3")
+			(uuid "49cacacb-750e-4e34-901c-326f255dc121")
+		)
+		(pin "6"
+			(uuid "08d7b639-f703-4925-aa4a-f5b40bb34383")
+		)
+		(pin "4"
+			(uuid "46510ca3-716f-49e0-b178-a410ca45bed3")
 		)
 		(instances
 			(project ""

@@ -188,7 +188,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SGP40"
+	(symbol "SGP41"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -200,7 +200,7 @@
 				)
 			)
 		)
-		(property "Value" "SGP40"
+		(property "Value" "SGP41"
 			(at 4.572 7.874 0)
 			(effects
 				(font
@@ -235,7 +235,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SGP40_1_1"
+		(symbol "SGP41_1_1"
 			(rectangle
 				(start -5.08 6.35)
 				(end 5.08 -5.08)
