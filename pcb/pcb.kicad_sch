@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "9bba97c2-2e09-46fb-bf2a-7de104403c7c")
 	(paper "A4")
+	(title_block
+		(title "Schematic Root")
+		(date "2026-01-29")
+		(rev "1")
+		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names

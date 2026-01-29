@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "57f9add1-3636-4817-950e-ae7a69153892")
 	(paper "A4")
+	(title_block
+		(title "Banshee Microcontroller + Supporting Systems")
+		(date "2026-01-29")
+		(rev "1")
+		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
