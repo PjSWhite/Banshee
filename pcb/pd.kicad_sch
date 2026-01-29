@@ -5,4 +5,15 @@
 	(uuid "cdeb1999-7673-45aa-9082-5fa90e477a07")
 	(paper "A4")
 	(lib_symbols)
+	(text "TODO:\n- Solar Charger\n- USB Charger (fallback)\n- Buck-boost converter (MP28164)"
+		(exclude_from_sim no)
+		(at 17.526 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcb0c3b9-ef01-43ec-bafe-bd053b73285c")
+	)
 )
