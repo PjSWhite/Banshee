@@ -1769,6 +1769,17 @@
 		)
 		(uuid "0725a89b-6dee-4401-bd6b-973e45483407")
 	)
+	(text "Note: SGP40 is almost half the price and uses the\nsame footprint and pinout. The only difference is\nthat this variant also provides NO_{X} indexes"
+		(exclude_from_sim no)
+		(at 83.058 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16dbc468-9b37-4580-b03a-48f7eb60359c")
+	)
 	(text "Anemometer & Wind Vane: Level shifter power supplies"
 		(exclude_from_sim no)
 		(at 224.79 16.256 0)
