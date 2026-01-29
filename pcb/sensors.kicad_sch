@@ -597,15 +597,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "pp.32, ch.6.1 states that CSB must be\nconnected to VDD_{IO} in order for the\nI^{2}C interface to be selected"
+	(text "pp.32, ch.6.1 of the BME280 datasheet\nstates that CSB must be connected to\nVDD_{IO} in order for the I^{2}C\ninterface to be selected"
 		(exclude_from_sim no)
-		(at 78.486 66.548 0)
+		(at 78.232 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-			(href "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf")
+			(href "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=32")
 		)
 		(uuid "0725a89b-6dee-4401-bd6b-973e45483407")
 	)
