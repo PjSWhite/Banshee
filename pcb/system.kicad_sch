@@ -3845,7 +3845,7 @@
 		(uuid "fcdc4a6f-3552-49d4-aaff-15b3042d3ba6")
 	)
 	(hierarchical_label "I^{2}C_{SCL}"
-		(shape input)
+		(shape output)
 		(at 226.06 68.58 0)
 		(effects
 			(font
