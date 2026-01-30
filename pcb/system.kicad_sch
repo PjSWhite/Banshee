@@ -4085,6 +4085,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#" ""
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3eec190-a604-48a6-adba-7f4076e520ad")
 		)
@@ -4147,6 +4156,15 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2040"
 			(at 162.56 96.52 0)
 			(effects
 				(font
@@ -4363,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
 			(at 35.56 96.52 0)
 			(effects
 				(font
@@ -4382,6 +4400,15 @@
 			)
 		)
 		(property "Description" "FRAM memory with SPI interface, SOIC-8 SON-8"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C126733"
 			(at 44.45 95.25 0)
 			(effects
 				(font
@@ -4469,6 +4496,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
 			(at 29.21 38.1 0)
 			(effects
 				(font
@@ -4605,6 +4641,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
 			(at 214.63 62.23 0)
 			(effects
 				(font
@@ -4750,6 +4795,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#" "C97521"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "56daef83-86ca-47a6-8a2a-d04243b3e2cd")
 		)
@@ -4830,6 +4884,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
 			(at 219.71 62.23 0)
 			(effects
 				(font
@@ -4964,6 +5027,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
 			(at 31.75 163.83 0)
 			(effects
 				(font
