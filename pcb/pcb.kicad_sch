@@ -95,6 +95,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1585f669-f019-4a4f-9dcd-0dd19af6c9b3")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187d4694-0f79-4027-a223-7e6881ae074f")
+	)
+	(wire
+		(pts
+			(xy 139.7 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40817541-3007-4fd8-91c2-a969cff28e51")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad406be-008f-4e09-9624-c61beabefac0")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 16.51 177.8 0)
@@ -421,6 +461,66 @@
 				(justify left top)
 			)
 		)
+		(pin "I^{2}C_{SCL}" input
+			(at 121.92 92.71 90)
+			(uuid "a359da63-bacc-42e5-978a-326e05829bf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I^{2}C_{SDA}" bidirectional
+			(at 124.46 92.71 90)
+			(uuid "8bff464d-1fd5-4f3e-a266-9f812fe966b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RAIN TICK" output
+			(at 161.29 99.06 0)
+			(uuid "3ed9230e-e0bb-4ff7-b18a-a303503eb6dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART ~{READ}{slash}WRITE" input
+			(at 161.29 102.87 0)
+			(uuid "94aff40b-65a0-4dd4-84a4-7a224e08d2d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_{RX}" output
+			(at 161.29 105.41 0)
+			(uuid "79c7e6a4-eaa6-46c4-93be-ec29e934cf68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_{TX}" input
+			(at 161.29 107.95 0)
+			(uuid "e0af1a8b-6831-426e-8035-63d3ce92ce2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pcb"
 				(path "/9bba97c2-2e09-46fb-bf2a-7de104403c7c"
@@ -503,6 +603,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I^{2}C_{SCL}" output
+			(at 139.7 72.39 180)
+			(uuid "74279b9b-b601-4189-a258-eeb7d20a99cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C_{SDA}" bidirectional
+			(at 139.7 74.93 180)
+			(uuid "f6ca9c74-2da4-440a-b622-1d8a91df4f69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
