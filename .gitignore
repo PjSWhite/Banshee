@@ -1,5 +1,6 @@
 *.lck
 *.swp
 *.bak
+*.kicad*bak
 \#auto_saved_files#
 pcb/pcb-backups/
