@@ -4668,17 +4668,6 @@
 		)
 		(uuid "1fbce6bf-43ca-4a79-9dc0-f7e50abc8dfc")
 	)
-	(hierarchical_label "UART_{RX}"
-		(shape input)
-		(at 204.47 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "704d3d86-bf6b-482b-aa3a-b84f9efe0143")
-	)
 	(hierarchical_label "I^{2}C_{SCL}"
 		(shape output)
 		(at 238.76 91.44 0)
@@ -4711,17 +4700,6 @@
 			(justify left)
 		)
 		(uuid "abe5e6ea-dff1-48f7-b426-f348c4b64f04")
-	)
-	(hierarchical_label "UART_{TX}"
-		(shape output)
-		(at 204.47 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e631a699-1391-4f46-b26c-0b4f87040c43")
 	)
 	(rule_area
 		(polyline
@@ -5092,10 +5070,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8c")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889817")
 		)
 		(instances
 			(project ""
@@ -5473,10 +5451,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8d")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889818")
 		)
 		(instances
 			(project ""
@@ -5543,10 +5521,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8e")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889819")
 		)
 		(instances
 			(project ""
@@ -5854,7 +5832,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9b7")
+			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9b8")
 		)
 		(instances
 			(project ""
@@ -6054,10 +6032,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8f")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981a")
 		)
 		(instances
 			(project ""
@@ -6190,10 +6168,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db90")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981b")
 		)
 		(instances
 			(project ""
@@ -6259,7 +6237,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9b7")
+			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9b9")
 		)
 		(instances
 			(project ""
@@ -6392,10 +6370,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db91")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981c")
 		)
 		(instances
 			(project ""
@@ -6541,10 +6519,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db92")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981d")
 		)
 		(instances
 			(project ""
@@ -6611,10 +6589,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db93")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981e")
 		)
 		(instances
 			(project ""
@@ -6679,10 +6657,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a816155-c5aa-4bb6-8ac5-f18e7751d8c8")
+			(uuid "0a816155-c5aa-4bb6-8ac5-f18e7751d8c9")
 		)
 		(pin "1"
-			(uuid "6c3d823a-3489-4aaf-941f-057092d4e142")
+			(uuid "6c3d823a-3489-4aaf-941f-057092d4e143")
 		)
 		(instances
 			(project ""
@@ -7058,10 +7036,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db94")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd88981f")
 		)
 		(instances
 			(project ""
@@ -7127,7 +7105,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9b7")
+			(uuid "27cba9c5-dda7-4d6a-b445-702d9c81a9ba")
 		)
 		(instances
 			(project ""
@@ -7310,10 +7288,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c630d57-09c9-4008-b9ab-25414d27db8b")
+			(uuid "4c630d57-09c9-4008-b9ab-25414d27db95")
 		)
 		(pin "1"
-			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889816")
+			(uuid "39ea4ab3-5821-4bfc-a51d-8abafd889820")
 		)
 		(instances
 			(project ""

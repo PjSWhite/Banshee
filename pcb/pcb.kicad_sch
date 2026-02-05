@@ -127,16 +127,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 107.95) (xy 161.29 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415cf207-ac2f-4efd-a1bd-77ee16f43a02")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 161.29 99.06)
 		)
 		(stroke
@@ -144,26 +134,6 @@
 			(type default)
 		)
 		(uuid "48f10544-3cc7-4c4f-9b13-7ce554fc21ab")
-	)
-	(wire
-		(pts
-			(xy 171.45 80.01) (xy 171.45 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5564b939-558a-4f19-8e64-55dfc8f97568")
-	)
-	(wire
-		(pts
-			(xy 171.45 105.41) (xy 161.29 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a97f40-6965-427b-88c6-c63b4e605981")
 	)
 	(wire
 		(pts
@@ -194,16 +164,6 @@
 			(type default)
 		)
 		(uuid "d9a0f4ab-4203-4caa-a3b9-86ce2d9eaa8a")
-	)
-	(wire
-		(pts
-			(xy 173.99 80.01) (xy 173.99 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8858c27-4220-4690-b64c-669ff8e77427")
 	)
 	(wire
 		(pts
@@ -581,26 +541,6 @@
 				(justify right)
 			)
 		)
-		(pin "UART_{RX}" output
-			(at 161.29 105.41 0)
-			(uuid "79c7e6a4-eaa6-46c4-93be-ec29e934cf68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART_{TX}" input
-			(at 161.29 107.95 0)
-			(uuid "e0af1a8b-6831-426e-8035-63d3ce92ce2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "pcb"
 				(path "/9bba97c2-2e09-46fb-bf2a-7de104403c7c"
@@ -718,26 +658,6 @@
 		(pin "UART ~{R}{slash}W" output
 			(at 168.91 80.01 270)
 			(uuid "5926b9c9-c228-467c-92d8-885f01d3f9a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART_{RX}" input
-			(at 171.45 80.01 270)
-			(uuid "339949d9-4c2c-463d-a390-6120ce8ec06b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART_{TX}" output
-			(at 173.99 80.01 270)
-			(uuid "2d3a15d9-13fc-484f-829d-028991fd4d08")
 			(effects
 				(font
 					(size 1.27 1.27)
