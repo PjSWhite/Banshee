@@ -4375,7 +4375,7 @@
 		)
 		(uuid "2b24cf6e-a8b8-4950-bcba-854f0d669213")
 	)
-	(hierarchical_label "UART1_{RX}"
+	(hierarchical_label "UART_{1} RX"
 		(shape input)
 		(at 171.45 137.16 180)
 		(effects
@@ -4386,7 +4386,7 @@
 		)
 		(uuid "307be29a-14a4-4e8b-b4cc-8c088793839d")
 	)
-	(hierarchical_label "UART ~{READ}{slash}WRITE"
+	(hierarchical_label "RS485 ~{READ}{slash}WRITE"
 		(shape input)
 		(at 157.48 55.88 180)
 		(effects
@@ -4419,7 +4419,7 @@
 		)
 		(uuid "8b478aec-5f65-4d62-9a2a-fbccd3c8274e")
 	)
-	(hierarchical_label "UART1_{TX}"
+	(hierarchical_label "UART_{1} TX"
 		(shape output)
 		(at 171.45 139.7 180)
 		(effects
@@ -4441,7 +4441,7 @@
 		)
 		(uuid "9f47df37-1c25-4dd1-8bd1-ff839607ce0c")
 	)
-	(hierarchical_label "UART0_{TX}"
+	(hierarchical_label "UART_{0} TX"
 		(shape input)
 		(at 157.48 43.18 180)
 		(effects
@@ -4452,7 +4452,7 @@
 		)
 		(uuid "bc34ce65-a353-47d3-bc41-c168e6d53ae3")
 	)
-	(hierarchical_label "UART0_{RX}"
+	(hierarchical_label "UART_{0} RX"
 		(shape output)
 		(at 157.48 30.48 180)
 		(effects
