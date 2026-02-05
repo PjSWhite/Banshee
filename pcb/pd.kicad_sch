@@ -5,8 +5,8 @@
 	(uuid "cdeb1999-7673-45aa-9082-5fa90e477a07")
 	(paper "A4")
 	(title_block
-		(title "Banshee Power Schematics")
-		(date "2026-01-29")
+		(title "Banshee Microcontroller + Supporting Systems")
+		(date "2026-02-05")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
 		(comment 1 "TODO")
