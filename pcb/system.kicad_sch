@@ -9653,10 +9653,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2abdc643-5cb1-4044-8a29-71acd31fceb6")
+			(uuid "2abdc643-5cb1-4044-8a29-71acd31fceb7")
 		)
 		(pin "1"
-			(uuid "50d113ab-25aa-4427-9659-9d8d2b3d8315")
+			(uuid "50d113ab-25aa-4427-9659-9d8d2b3d8316")
 		)
 		(instances
 			(project ""

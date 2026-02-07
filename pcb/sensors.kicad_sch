@@ -7967,7 +7967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN65HVD485EDR"
+		(property "Value" "SN65HVD3082EDR"
 			(at 200.2633 29.21 0)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd485e.pdf?ts=1769663605258"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd3082e.pdf"
 			(at 198.882 37.846 0)
 			(effects
 				(font
@@ -8003,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C27899"
+		(property "JLCPCB Part#" "C6912"
 			(at 198.12 38.1 0)
 			(effects
 				(font
