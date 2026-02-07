@@ -2712,7 +2712,7 @@
 	)
 	(text "Area: 48mm x 37mm\nSensor to be placed at the edge\nof the board"
 		(exclude_from_sim no)
-		(at 116.84 203.708 0)
+		(at 67.31 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
