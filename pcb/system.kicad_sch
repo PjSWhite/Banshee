@@ -6856,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf"
+		(property "Datasheet" "https://www.fujitsu.com/us/Images/MB85RS16-DS501-00014-6v0-E.pdf"
 			(at 35.56 96.52 0)
 			(effects
 				(font
