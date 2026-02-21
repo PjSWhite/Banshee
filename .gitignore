@@ -2,5 +2,6 @@
 *.swp
 *.bak
 *.kicad*bak
+*.FCBak
 \#auto_saved_files#
 pcb/pcb-backups/
