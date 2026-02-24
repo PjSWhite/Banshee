@@ -1114,6 +1114,12 @@
 		(uuid "71a60b10-e488-47b4-be9d-a1f8fa7c2a6e")
 	)
 	(junction
+		(at 87.63 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08e498f-62dd-446e-96e7-ee1dd8673d12")
+	)
+	(junction
 		(at 31.75 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1373,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1338e7c-07b5-451a-a96d-2de2f050cb9b")
+	)
+	(wire
+		(pts
 			(xy 66.04 69.85) (xy 66.04 67.31)
 		)
 		(stroke
@@ -1530,6 +1546,17 @@
 			(type default)
 		)
 		(uuid "eb61d851-10d1-4e23-bf74-ba4d31c1b987")
+	)
+	(hierarchical_label "MCU ~{RESET}"
+		(shape output)
+		(at 90.17 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e90d668a-0464-49ac-8cc7-cccef21616cd")
 	)
 	(rule_area
 		(polyline
@@ -1808,6 +1835,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#" "C139412"
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f6a904cb-0786-4146-add6-e0d450f84db4")
 		)
@@ -1938,7 +1974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M R"
+		(property "Value" "47k"
 			(at 90.17 50.7999 0)
 			(effects
 				(font
