@@ -3954,6 +3954,16 @@
 		)
 		(uuid "0054f460-81ae-4cd9-ac7e-c19342c5a274")
 	)
+	(text "SX1278 LoRa"
+		(exclude_from_sim no)
+		(at 223.52 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "180cd1da-689e-4898-9e16-bcd0ff7a315b")
+	)
 	(text "Serial Debug Interface"
 		(exclude_from_sim no)
 		(at 95.25 31.75 0)
@@ -5968,7 +5978,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 132.08) (xy 204.47 132.08)
+			(xy 200.66 132.08) (xy 219.71 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6045,6 +6055,16 @@
 			(type default)
 		)
 		(uuid "e8395a6a-5122-4133-87aa-8589d0e09707")
+	)
+	(wire
+		(pts
+			(xy 200.66 129.54) (xy 204.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3608ef-7c74-4bb5-9167-e026c739a636")
 	)
 	(wire
 		(pts
@@ -6167,7 +6187,7 @@
 		(uuid "175a4d05-1c6e-4a0f-9492-1ee889417a87")
 	)
 	(label "HEARTBEAT"
-		(at 204.47 132.08 0)
+		(at 219.71 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,6 +6496,17 @@
 			(justify left)
 		)
 		(uuid "1f5f5d14-1260-4341-90c0-f92f735f4b30")
+	)
+	(hierarchical_label "LOW BATTERY"
+		(shape input)
+		(at 204.47 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55526231-5e06-4af1-9a08-da7c7ed8ec78")
 	)
 	(hierarchical_label "I^{2}C_{SCL}"
 		(shape output)
