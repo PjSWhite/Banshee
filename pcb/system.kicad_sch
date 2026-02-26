@@ -5,7 +5,7 @@
 	(uuid "57f9add1-3636-4817-950e-ae7a69153892")
 	(paper "A4")
 	(title_block
-		(title "Banshee Power Delivery System")
+		(title "Banshee Microcontroller System")
 		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
@@ -3956,11 +3956,13 @@
 	)
 	(text "SX1278 LoRa"
 		(exclude_from_sim no)
-		(at 223.52 100.584 0)
+		(at 215.9 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "180cd1da-689e-4898-9e16-bcd0ff7a315b")
 	)
@@ -4012,6 +4014,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 			(justify left)
 			(href "https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008279-DS-1-hardware-design-with-rp2040.pdf?disposition=inline#page=9")
@@ -4024,6 +4027,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "3cf2caca-d834-4af3-a4e8-5535784b369b")
@@ -4044,6 +4048,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 			(justify left)
 			(href "https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008371-DS-1-rp2040-datasheet.pdf?disposition=inline#page=238")
@@ -4078,9 +4083,22 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "7296c7c3-8747-4dfe-8a36-e89877eccc8c")
+	)
+	(text "PMS7003"
+		(exclude_from_sim no)
+		(at 215.9 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7949595b-785e-46c0-ab16-603ae11eae50")
 	)
 	(text "C17 and C17 are to be placed\nas close to the RP2040's power\npins as possible"
 		(exclude_from_sim no)
@@ -4123,6 +4141,18 @@
 			)
 		)
 		(uuid "a710f9f9-4ff0-46b0-8746-c820286c08c3")
+	)
+	(text "Wind Vane + Anemometer"
+		(exclude_from_sim no)
+		(at 215.9 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b92a8eb0-9b9d-421e-ae42-0ba7ebc641c5")
 	)
 	(text "Stores Precipitation Counter, Device ID, misc data that\nhas to persist across power cycles"
 		(exclude_from_sim no)

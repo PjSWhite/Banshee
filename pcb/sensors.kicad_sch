@@ -5,7 +5,7 @@
 	(uuid "81871ec2-fbf9-4721-bc90-830d07628879")
 	(paper "A4")
 	(title_block
-		(title "Banshee Power Delivery System")
+		(title "Banshee Sensor Collection")
 		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
@@ -2640,6 +2640,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 			(justify left)
 			(href "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=32")
@@ -2674,6 +2675,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "271ae731-e943-44af-846d-628220035dc1")
@@ -2706,6 +2708,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 			(href "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589835483552378880")
 		)
@@ -2744,12 +2747,13 @@
 	)
 	(text "1: 12V\n2: RS-485+\n3: RS-485-\n4: GND"
 		(exclude_from_sim no)
-		(at 241.046 91.44 0)
+		(at 227.33 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "85c5a7b3-35a8-4158-b9be-e075d86e6690")
 	)
@@ -2812,6 +2816,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "c500a18a-520a-40dc-ad26-7cebca6e75d0")

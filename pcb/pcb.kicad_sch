@@ -5,7 +5,7 @@
 	(uuid "9bba97c2-2e09-46fb-bf2a-7de104403c7c")
 	(paper "A4")
 	(title_block
-		(title "Banshee Power Delivery System")
+		(title "Banshee System Overview")
 		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
@@ -100,7 +100,7 @@
 	)
 	(text "This schematic has been solo'd by one student\nand his hopes, dreams, and aspirations, coupled\nwith the power of (imaginary) friendship!"
 		(exclude_from_sim no)
-		(at 14.732 29.464 0)
+		(at 13.97 29.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -112,7 +112,7 @@
 	)
 	(text "Passive component values are written according to\nthe metric system.\n\ne.g. 10m ohms => 10 milliohms\n     10M ohms => 10 megaohms"
 		(exclude_from_sim no)
-		(at 14.732 20.32 0)
+		(at 13.97 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -120,6 +120,32 @@
 			(justify left)
 		)
 		(uuid "54f17597-e4ad-4333-8844-87f61e022171")
+	)
+	(text "Please do not ask why the code name is Banshee.\nI will not answer because I'll be in the ground\ncringing at myself. :>"
+		(exclude_from_sim no)
+		(at 13.97 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "60b53701-dd03-469b-815c-44e18f120c8b")
+	)
+	(text "A note on text color:\n\nI've color-coded the text in this schematic.\nRules are loose and dont apply to this page:\n\n  1) Text in BLUE or RED are notes. BLUE is\n     used to label subsystems within a\n     schematic or notes on how the circuit\n     should be implemented, while RED are \n     miscellaneous notes I decided to \n     sprinkle around.\n\n  2) Text in PINK are worth noting. Usually,\n     these are TODO stuffs, and shouldnt appear\n     in the final schematic. I made it pink so\n     that they contrast well with whatever\n     background, and allows me to spot the text easier"
+		(exclude_from_sim no)
+		(at 179.07 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffc68f9e-2fe0-4d48-be8a-91295f74b125")
 	)
 	(junction
 		(at 109.22 109.22)
