@@ -98,6 +98,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This schematic has been solo'd by one student\nand his hopes, dreams, and aspirations, coupled\nwith the power of (imaginary) friendship!"
+		(exclude_from_sim no)
+		(at 14.732 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "19ea1933-3888-40cb-b3ce-642394dd1161")
+	)
+	(text "Passive component values are written according to\nthe metric system.\n\ne.g. 10m ohms => 10 milliohms\n     10M ohms => 10 megaohms"
+		(exclude_from_sim no)
+		(at 14.732 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f17597-e4ad-4333-8844-87f61e022171")
+	)
 	(junction
 		(at 109.22 109.22)
 		(diameter 0)
@@ -109,6 +132,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2faffd6-bd15-4df9-8f7f-3cbeccf40e2e")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7d7d2e-825d-4eef-a486-eb8e3246ff41")
 	)
 	(wire
 		(pts
@@ -159,6 +192,16 @@
 			(type default)
 		)
 		(uuid "215917dd-a2fa-49d1-88a7-13928ea68ccf")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f50a86-4ae7-4b88-8a2e-9e10a6f95fdd")
 	)
 	(wire
 		(pts
@@ -309,6 +352,26 @@
 			(type default)
 		)
 		(uuid "de32caab-e2b4-473a-b990-77ca3bb93a38")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1989401-d69c-4165-ac1c-b5f61cf5036e")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b4be91-c974-4f82-9d20-4207f25a3279")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -930,6 +993,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SPI_{1} MISO" output
+			(at 165.1 68.58 270)
+			(uuid "170aaa1e-7d1c-441b-82a0-f5ff0fa35b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_{1} MOSI" input
+			(at 167.64 68.58 270)
+			(uuid "e8684788-cfbc-4690-adb1-65ae904f255a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_{1} SCK" input
+			(at 170.18 68.58 270)
+			(uuid "74e674c7-23ef-4f97-a344-2551b04a97ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_{1} ~{CSn}" input
+			(at 172.72 68.58 270)
+			(uuid "a4036076-8aa5-4294-bc6c-dec875a813a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

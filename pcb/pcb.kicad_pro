@@ -450,7 +450,9 @@
     "pinned_footprint_libs": [
       "Banshee"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Banshee"
+    ]
   },
   "meta": {
     "filename": "pcb.kicad_pro",
@@ -600,7 +602,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

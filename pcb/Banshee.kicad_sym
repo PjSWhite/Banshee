@@ -754,27 +754,27 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS6305"
+	(symbol "TPS630252"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 16.51 0)
+			(at 0 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPS6305"
-			(at 0 14.224 0)
+		(property "Value" "TPS630252"
+			(at 0 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Banshee:QFN50P250X250X100-12N"
+		(property "Footprint" "Banshee:YFF0020AJAF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -783,7 +783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63050.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771851153145"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps630250.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -792,7 +792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Inductor Buck-Boost With 1-A Switches and Adjustable Soft Start"
+		(property "Description" "High Current, High Efficiency Single Inductor Buck-Boost Converter, Fixed 3.3v out, 2.5-5.5v in"
 			(at 0 0 0)
 			(effects
 				(font
@@ -801,10 +801,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS6305_1_1"
+		(symbol "TPS630252_1_1"
 			(rectangle
-				(start -11.43 12.7)
-				(end 10.16 -11.43)
+				(start -12.7 15.24)
+				(end 11.43 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -813,17 +813,17 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -13.97 8.89 0)
+			(pin power_in line
+				(at -15.24 8.89 0)
 				(length 2.54)
-				(name "L1"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "E1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -832,16 +832,52 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 6.35 0)
+				(at -15.24 6.35 0)
 				(length 2.54)
-				(name "VIN"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "V_{INA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -850,7 +886,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -859,7 +895,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "D4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -868,16 +904,16 @@
 				)
 			)
 			(pin input line
-				(at -13.97 1.27 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
-				(name "ILIM0"
+				(name "~{PFM}/PWM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -885,80 +921,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -13.97 -3.81 0)
-				(length 2.54)
-				(name "PFM/PWM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -13.97 -6.35 0)
-				(length 2.54)
-				(name "SS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -1.27 -13.97 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 1.27 -13.97 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 8.89 180)
+			(pin power_in line
+				(at -10.16 17.78 270)
 				(length 2.54)
 				(name "L2"
 					(effects
@@ -967,7 +931,43 @@
 						)
 					)
 				)
-				(number "3"
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 17.78 270)
+				(length 2.54)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 17.78 270)
+				(length 2.54)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -976,16 +976,178 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 6.35 180)
+				(at -3.81 -15.24 90)
 				(length 2.54)
-				(name "VOUT"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -1.27 -15.24 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 1.27 -15.24 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 3.81 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 17.78 270)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 17.78 270)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 17.78 270)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 8.89 180)
+				(length 2.54)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 6.35 180)
+				(length 2.54)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 3.81 180)
+				(length 2.54)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -994,7 +1156,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -3.81 180)
+				(at 13.97 0 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -1003,25 +1165,7 @@
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 12.7 -6.35 180)
-				(length 2.54)
-				(name "PG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
