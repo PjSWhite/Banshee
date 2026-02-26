@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Banshee Power Delivery System")
-		(date "2026-02-18")
+		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
 		(comment 1 "STEM 12 - Altruism | S.Y. 2025-2026")
@@ -5851,10 +5851,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "83944073-674a-4222-a6a7-648879160e8a")
+			(uuid "83944073-674a-4222-a6a7-648879160e8b")
 		)
 		(pin "1"
-			(uuid "a03aa6e0-81ef-4506-a208-be319e2794fe")
+			(uuid "a03aa6e0-81ef-4506-a208-be319e2794ff")
 		)
 		(instances
 			(project ""
@@ -6318,7 +6318,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "62305a85-61be-43e0-875c-55058e651e47")
+			(uuid "62305a85-61be-43e0-875c-55058e651e48")
 		)
 		(instances
 			(project ""
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a4703c1-093e-4ccd-8ad3-5c033becc77b")
+			(uuid "5a4703c1-093e-4ccd-8ad3-5c033becc77c")
 		)
 		(instances
 			(project ""
@@ -7046,10 +7046,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ba63a51e-ccc4-4032-a1c4-b269504ea3ac")
+			(uuid "ba63a51e-ccc4-4032-a1c4-b269504ea3ad")
 		)
 		(pin "1"
-			(uuid "6ca1cacc-68c4-4aa6-9893-d6854b03d5b7")
+			(uuid "6ca1cacc-68c4-4aa6-9893-d6854b03d5b8")
 		)
 		(instances
 			(project ""
@@ -7115,7 +7115,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f3381e5-7a80-49a5-a23b-66fe0c071ed1")
+			(uuid "3f3381e5-7a80-49a5-a23b-66fe0c071ed2")
 		)
 		(instances
 			(project ""
@@ -7526,7 +7526,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f3381e5-7a80-49a5-a23b-66fe0c071ed1")
+			(uuid "3f3381e5-7a80-49a5-a23b-66fe0c071ed3")
 		)
 		(instances
 			(project ""

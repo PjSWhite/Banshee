@@ -5,8 +5,8 @@
 	(uuid "9bba97c2-2e09-46fb-bf2a-7de104403c7c")
 	(paper "A4")
 	(title_block
-		(title "Banshee Systems Overview")
-		(date "2026-02-18")
+		(title "Banshee Power Delivery System")
+		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
 		(comment 1 "STEM 12 - Altruism | S.Y. 2025-2026")
@@ -99,20 +99,20 @@
 		)
 	)
 	(junction
-		(at 105.41 86.36)
+		(at 109.22 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "449bab5d-02a8-4fbc-b40a-92bc46d88641")
 	)
 	(junction
-		(at 102.87 83.82)
+		(at 106.68 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2faffd6-bd15-4df9-8f7f-3cbeccf40e2e")
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 124.46)
+			(xy 162.56 114.3) (xy 162.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -122,7 +122,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 104.14)
+			(xy 109.22 109.22) (xy 109.22 127)
 		)
 		(stroke
 			(width 0)
@@ -132,7 +132,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 102.87 104.14)
+			(xy 106.68 106.68) (xy 106.68 127)
 		)
 		(stroke
 			(width 0)
@@ -142,7 +142,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 120.65 67.31)
+			(xy 90.17 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 102.87 83.82)
+			(xy 90.17 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -162,7 +162,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 119.38) (xy 142.24 119.38)
+			(xy 158.75 142.24) (xy 146.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -172,7 +172,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 102.87 83.82)
+			(xy 124.46 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -182,7 +182,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 120.65 86.36)
+			(xy 109.22 109.22) (xy 124.46 109.22)
 		)
 		(stroke
 			(width 0)
@@ -192,7 +192,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 142.24 110.49)
+			(xy 149.86 133.35) (xy 146.05 133.35)
 		)
 		(stroke
 			(width 0)
@@ -202,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 152.4 116.84)
+			(xy 156.21 114.3) (xy 156.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -212,7 +212,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 142.24 116.84)
+			(xy 156.21 139.7) (xy 146.05 139.7)
 		)
 		(stroke
 			(width 0)
@@ -222,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 69.85) (xy 120.65 69.85)
+			(xy 90.17 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
@@ -232,7 +232,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 124.46) (xy 142.24 124.46)
+			(xy 162.56 147.32) (xy 146.05 147.32)
 		)
 		(stroke
 			(width 0)
@@ -242,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 149.86 114.3)
+			(xy 146.05 137.16) (xy 153.67 137.16)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +252,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 149.86 91.44)
+			(xy 153.67 137.16) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -262,7 +262,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 142.24 127)
+			(xy 165.1 149.86) (xy 146.05 149.86)
 		)
 		(stroke
 			(width 0)
@@ -272,7 +272,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 105.41 86.36)
+			(xy 90.17 109.22) (xy 109.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 146.05 110.49)
+			(xy 149.86 114.3) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 161.29 127)
+			(xy 165.1 114.3) (xy 165.1 149.86)
 		)
 		(stroke
 			(width 0)
@@ -302,7 +302,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 91.44) (xy 154.94 119.38)
+			(xy 158.75 114.3) (xy 158.75 142.24)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +675,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 104.14)
+		(at 78.74 127)
 		(size 67.31 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -691,7 +691,7 @@
 		)
 		(uuid "0b6630c6-ecdb-4ee5-ae06-53316b49d000")
 		(property "Sheetname" "[3] Sensors"
-			(at 74.93 103.4284 0)
+			(at 78.74 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +700,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 74.93 140.2846 0)
+			(at 78.74 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +709,7 @@
 			)
 		)
 		(pin "I^{2}C_{SCL}" input
-			(at 102.87 104.14 90)
+			(at 106.68 127 90)
 			(uuid "a359da63-bacc-42e5-978a-326e05829bf6")
 			(effects
 				(font
@@ -719,7 +719,7 @@
 			)
 		)
 		(pin "I^{2}C_{SDA}" bidirectional
-			(at 105.41 104.14 90)
+			(at 109.22 127 90)
 			(uuid "8bff464d-1fd5-4f3e-a266-9f812fe966b5")
 			(effects
 				(font
@@ -729,7 +729,7 @@
 			)
 		)
 		(pin "RAIN TICK" output
-			(at 142.24 110.49 0)
+			(at 146.05 133.35 0)
 			(uuid "3ed9230e-e0bb-4ff7-b18a-a303503eb6dd")
 			(effects
 				(font
@@ -739,7 +739,7 @@
 			)
 		)
 		(pin "PM2.5 ~{RESET}" input
-			(at 142.24 129.54 0)
+			(at 146.05 152.4 0)
 			(uuid "cf21ca92-2dfc-4c2b-85f9-2e1d5e38ce7d")
 			(effects
 				(font
@@ -749,7 +749,7 @@
 			)
 		)
 		(pin "PM2.5 ~{SET}" input
-			(at 142.24 132.08 0)
+			(at 146.05 154.94 0)
 			(uuid "e9166558-ba55-4b90-aa9f-f9fb07bdbd0b")
 			(effects
 				(font
@@ -759,7 +759,7 @@
 			)
 		)
 		(pin "RS485 ~{READ}{slash}WRITE" input
-			(at 142.24 114.3 0)
+			(at 146.05 137.16 0)
 			(uuid "915ac1a7-a082-4cd4-ac70-ae851760be4d")
 			(effects
 				(font
@@ -769,7 +769,7 @@
 			)
 		)
 		(pin "UART_{0} RX" output
-			(at 142.24 116.84 0)
+			(at 146.05 139.7 0)
 			(uuid "ea6da44e-2eb6-4519-b002-4ae9aacef429")
 			(effects
 				(font
@@ -779,7 +779,7 @@
 			)
 		)
 		(pin "UART_{0} TX" input
-			(at 142.24 119.38 0)
+			(at 146.05 142.24 0)
 			(uuid "342b6d2c-e787-4e7d-a453-b0d435c797b4")
 			(effects
 				(font
@@ -789,7 +789,7 @@
 			)
 		)
 		(pin "UART_{1} RX" input
-			(at 142.24 124.46 0)
+			(at 146.05 147.32 0)
 			(uuid "47b00c78-f87d-4b25-837f-e8725aa7e010")
 			(effects
 				(font
@@ -799,7 +799,7 @@
 			)
 		)
 		(pin "UART_{1} TX" output
-			(at 142.24 127 0)
+			(at 146.05 149.86 0)
 			(uuid "0f483c7e-5911-4469-95d1-5b0ba75bbfca")
 			(effects
 				(font
@@ -817,7 +817,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 60.96)
+		(at 36.83 83.82)
 		(size 53.34 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -833,7 +833,7 @@
 		)
 		(uuid "0c8ea9b5-1787-4aea-bb2e-37261a767a7b")
 		(property "Sheetname" "[1] Power Delivery"
-			(at 33.02 60.2484 0)
+			(at 36.83 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +842,7 @@
 			)
 		)
 		(property "Sheetfile" "pd.kicad_sch"
-			(at 33.02 92.0246 0)
+			(at 36.83 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +851,7 @@
 			)
 		)
 		(pin "I^{2}C_{SCL}" input
-			(at 86.36 83.82 0)
+			(at 90.17 106.68 0)
 			(uuid "5938adb1-d3b3-404e-8626-a609fe9b6454")
 			(effects
 				(font
@@ -861,7 +861,7 @@
 			)
 		)
 		(pin "I^{2}C_{SDA}" bidirectional
-			(at 86.36 86.36 0)
+			(at 90.17 109.22 0)
 			(uuid "9dd035d6-a7d1-4edf-b544-cdb3b35d56e7")
 			(effects
 				(font
@@ -871,7 +871,7 @@
 			)
 		)
 		(pin "LOW BATTERY" output
-			(at 86.36 67.31 0)
+			(at 90.17 90.17 0)
 			(uuid "d2b3859b-a123-4654-819f-2e97004adc74")
 			(effects
 				(font
@@ -881,7 +881,7 @@
 			)
 		)
 		(pin "MCU ~{RESET}" output
-			(at 86.36 69.85 0)
+			(at 90.17 92.71 0)
 			(uuid "cb63e722-4b38-4ce9-9ee2-344a2035d353")
 			(effects
 				(font
@@ -899,7 +899,49 @@
 		)
 	)
 	(sheet
-		(at 120.65 64.77)
+		(at 124.46 43.18)
+		(size 64.77 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73350dbb-788f-4f14-963a-1d387488cc96")
+		(property "Sheetname" "[4] Radio"
+			(at 124.46 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 124.46 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/9bba97c2-2e09-46fb-bf2a-7de104403c7c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 87.63)
 		(size 60.96 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -915,7 +957,7 @@
 		)
 		(uuid "a98a71c0-d58c-4841-9b05-a84df7de5fc9")
 		(property "Sheetname" "[2] System"
-			(at 120.65 64.0584 0)
+			(at 124.46 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +966,7 @@
 			)
 		)
 		(property "Sheetfile" "system.kicad_sch"
-			(at 120.65 92.0246 0)
+			(at 124.46 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +975,7 @@
 			)
 		)
 		(pin "I^{2}C_{SCL}" output
-			(at 120.65 83.82 180)
+			(at 124.46 106.68 180)
 			(uuid "74279b9b-b601-4189-a258-eeb7d20a99cd")
 			(effects
 				(font
@@ -943,7 +985,7 @@
 			)
 		)
 		(pin "I^{2}C_{SDA}" bidirectional
-			(at 120.65 86.36 180)
+			(at 124.46 109.22 180)
 			(uuid "f6ca9c74-2da4-440a-b622-1d8a91df4f69")
 			(effects
 				(font
@@ -953,7 +995,7 @@
 			)
 		)
 		(pin "RAIN TICK" input
-			(at 146.05 91.44 270)
+			(at 149.86 114.3 270)
 			(uuid "7d4f4bb6-8743-4ed2-a2ff-9bffb517aa9c")
 			(effects
 				(font
@@ -963,7 +1005,7 @@
 			)
 		)
 		(pin "LOW BATTERY" input
-			(at 120.65 67.31 180)
+			(at 124.46 90.17 180)
 			(uuid "1f18547c-ee62-4379-bdff-bc17e2a2a3ba")
 			(effects
 				(font
@@ -973,7 +1015,7 @@
 			)
 		)
 		(pin "MCU ~{RESET}" input
-			(at 120.65 69.85 180)
+			(at 124.46 92.71 180)
 			(uuid "a3873834-07b9-4224-892b-aa8386fd140e")
 			(effects
 				(font
@@ -983,7 +1025,7 @@
 			)
 		)
 		(pin "RS485 ~{R}{slash}W" output
-			(at 149.86 91.44 270)
+			(at 153.67 114.3 270)
 			(uuid "538fcfe9-cc8b-4fab-9319-9a2ae3da4c7b")
 			(effects
 				(font
@@ -993,7 +1035,7 @@
 			)
 		)
 		(pin "SPI_{1} MISO" input
-			(at 161.29 64.77 90)
+			(at 165.1 87.63 90)
 			(uuid "6c3d72b2-4b0a-4f94-bb51-c594967250a2")
 			(effects
 				(font
@@ -1003,7 +1045,7 @@
 			)
 		)
 		(pin "SPI_{1} MOSI" output
-			(at 163.83 64.77 90)
+			(at 167.64 87.63 90)
 			(uuid "cb8e3436-9491-483f-ac49-8421a91cd7b2")
 			(effects
 				(font
@@ -1013,7 +1055,7 @@
 			)
 		)
 		(pin "SPI_{1} SCK" output
-			(at 166.37 64.77 90)
+			(at 170.18 87.63 90)
 			(uuid "2aa06fb3-c6c0-4c7f-8912-2bd130bea53a")
 			(effects
 				(font
@@ -1023,7 +1065,7 @@
 			)
 		)
 		(pin "SPI_{1} ~{CSn}" output
-			(at 168.91 64.77 90)
+			(at 172.72 87.63 90)
 			(uuid "20f57b10-b3a0-40ad-8f2a-dbc9d416eb8e")
 			(effects
 				(font
@@ -1033,7 +1075,7 @@
 			)
 		)
 		(pin "UART_{0} RX" input
-			(at 152.4 91.44 270)
+			(at 156.21 114.3 270)
 			(uuid "40453994-f22a-4492-83c2-5e55346833e1")
 			(effects
 				(font
@@ -1043,7 +1085,7 @@
 			)
 		)
 		(pin "UART_{0} TX" output
-			(at 154.94 91.44 270)
+			(at 158.75 114.3 270)
 			(uuid "60366ef2-3f80-4b7d-8852-1fa0495f3e56")
 			(effects
 				(font
@@ -1053,7 +1095,7 @@
 			)
 		)
 		(pin "UART_{1} RX" input
-			(at 158.75 91.44 270)
+			(at 162.56 114.3 270)
 			(uuid "bcfcd05e-1323-4c62-b390-06134ec1a1da")
 			(effects
 				(font
@@ -1063,7 +1105,7 @@
 			)
 		)
 		(pin "UART_{1} TX" output
-			(at 161.29 91.44 270)
+			(at 165.1 114.3 270)
 			(uuid "2aa56c76-5f4b-432a-8284-a310c74f89ff")
 			(effects
 				(font

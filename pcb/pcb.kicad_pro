@@ -663,6 +663,10 @@
     [
       "0b6630c6-ecdb-4ee5-ae06-53316b49d000",
       "[3] Sensors"
+    ],
+    [
+      "73350dbb-788f-4f14-963a-1d387488cc96",
+      "[4] Radio"
     ]
   ],
   "text_variables": {}

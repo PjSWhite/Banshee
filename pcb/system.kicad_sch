@@ -5,8 +5,8 @@
 	(uuid "57f9add1-3636-4817-950e-ae7a69153892")
 	(paper "A4")
 	(title_block
-		(title "Banshee Microcontroller + Supporting Systems")
-		(date "2026-02-18")
+		(title "Banshee Power Delivery System")
+		(date "2026-02-26")
 		(rev "1")
 		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
 		(comment 1 "STEM 12 - Altruism | S.Y. 2025-2026")

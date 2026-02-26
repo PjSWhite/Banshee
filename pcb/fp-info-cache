@@ -1,4 +1,4 @@
-27105183425138067
+27106955412137807
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -41,6 +41,13 @@ XCDR_SGP40-D-R4
 0
 7
 7
+Banshee
+YZF9_TEX
+
+BQ27220YZFR 
+0
+9
+9
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

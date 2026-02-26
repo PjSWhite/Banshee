@@ -1,0 +1,58 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c7205e34-92e0-48b7-a47d-104f04e71ada")
+	(paper "A4")
+	(title_block
+		(title "Banshee Power Delivery System")
+		(date "2026-02-26")
+		(rev "1")
+		(company "Ivan Leonard O Aparte <ivanleonard.aparte@cit.edu>")
+	)
+	(lib_symbols)
+	(hierarchical_label "SPI_{1} ~{CSn}"
+		(shape input)
+		(at 34.29 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24466025-4731-4990-911e-577a12e4f5ba")
+	)
+	(hierarchical_label "SPI_{1} MOSI"
+		(shape input)
+		(at 34.29 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2841314b-4798-4cf1-87da-6ab1ebbd1f8a")
+	)
+	(hierarchical_label "SPI_{1} SCK"
+		(shape input)
+		(at 34.29 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b333e8c-9439-419b-b612-2a415123c540")
+	)
+	(hierarchical_label "SPI_{1} MISO"
+		(shape output)
+		(at 34.29 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a211e472-d817-499c-bcf1-e3cbe0a168cd")
+	)
+)
