@@ -155,54 +155,6 @@
 		(layer "F.Fab")
 		(uuid "29a47341-081b-4e3a-ae10-3478a79fbc53")
 	)
-	(fp_text user "A"
-		(at -1.3716 -0.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "0147a1bd-2241-4bce-944c-b3a68b6c7284")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at -0.5 -1.3716 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5a245658-6634-4785-a0ff-972f67eaacef")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "C"
-		(at -1.3716 0.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "bf5fdb6d-40de-47f1-b085-85cd33f7e0a3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "3"
-		(at 0.5 -1.3716 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "de8b6d36-2f3b-4ac0-9d79-b9a13787a0e2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "C"
 		(at -1.3716 0.5 0)
 		(unlocked yes)
@@ -368,13 +320,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Banshee.pretty/YZF9_TEX.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -0.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
