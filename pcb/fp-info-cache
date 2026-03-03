@@ -1,4 +1,4 @@
-27106955412137807
+27106955906308629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -21,13 +21,6 @@ Banshee
 4
 4
 Banshee
-QFN50P250X250X100-12N
-
-
-0
-12
-12
-Banshee
 WLCSP9_1P24X1P24_NXP
 
 PCA9410AUKZ 
@@ -41,6 +34,13 @@ XCDR_SGP40-D-R4
 0
 7
 7
+Banshee
+YFF0020AJAF
+
+TPS630252YFFR 
+0
+20
+20
 Banshee
 YZF9_TEX
 

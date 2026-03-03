@@ -7624,10 +7624,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "acdb3015-9112-48f1-96c0-18f9b9dea4ad")
+			(uuid "acdb3015-9112-48f1-96c0-18f9b9dea4ae")
 		)
 		(pin "2"
-			(uuid "ee74af0f-a049-4981-ab6c-27ca28113cf0")
+			(uuid "ee74af0f-a049-4981-ab6c-27ca28113cf1")
 		)
 		(instances
 			(project ""
