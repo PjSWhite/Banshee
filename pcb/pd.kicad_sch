@@ -3206,6 +3206,18 @@
 		)
 		(uuid "c6fa4a75-8d76-4065-bd59-8bf79cda0ec5")
 	)
+	(text "TODO: TVS Diode somewhere?"
+		(exclude_from_sim no)
+		(at 169.164 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "d609f2e9-02b1-4349-a347-61c6302df490")
+	)
 	(text "JST-PH battery connector"
 		(exclude_from_sim no)
 		(at 265.176 72.39 0)
